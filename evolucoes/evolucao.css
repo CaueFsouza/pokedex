@@ -5,7 +5,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(to top, rgb(255, 255, 255), rgb(194, 193, 193));
+    background: linear-gradient(to right, rgb(255, 111, 28, 0.6), rgb(4, 205, 255, 0.6), rgb(102, 255, 0, 0.6));
 }
 
 
@@ -57,19 +57,25 @@ input {
 .formas{     
     display: flex;
     justify-content: center;  
-    gap: 15px;                
+    gap: 30px;                
     margin: 40px 0;
 
 }
 
-.formas button{
-    height: auto;
-    width: 200px;
-    padding: 40px;
-    border: none;
-    border-radius: 20px;
-    font-weight: bolder;
-    font-size: 30px;
+.formas a{
+     font-size: 30px;
+     text-decoration: none;
+     text-align: center;
+     font-weight: bolder;
+     background-color: rgb(241, 241, 241);
+     padding: 30px;
+     border: 2px solid black;
+     border-radius: 7px;
+     color: black;
+     width: 150px;
+     box-shadow: 1px 10px 20px rgb(0, 0, 0);
+     
+     
 }
 
 /*navegacao*/
@@ -188,16 +194,36 @@ input {
     color: rgb(255, 255, 255);
 }
 
-.formas button:hover {
+.formas a:hover {
     background: url(/IMG/DNA.png) rgb(145, 145, 145);
     background-position: center;
     background-size: 200px;
     background-repeat: no-repeat;
     transition: 1s;
     color: aliceblue;
-    width: 300px;
+    width: 200px;
 
 }
+
+.variavel{
+    background: url(https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png) white;
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 20px gray;
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 220px;
+    height: 300px
+}
+
+.v2:active {
+  content: url(/IMG/Typhlosion\ v2.png);
+
+}
+
+
 
 /*footer*/
 footer {

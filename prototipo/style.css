@@ -5,7 +5,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(to top, rgb(255, 255, 255), rgb(194, 193, 193));
+    background: linear-gradient(to right, rgb(255, 111, 28, 0.6), rgb(4, 205, 255, 0.6), rgb(102, 255, 0, 0.6));
 }
 
 
@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     border-bottom: 44px solid rgb(0, 0, 0);
     gap: 17px;
     border-radius: 0px 0px 15px 15px;
@@ -57,7 +56,7 @@ button {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 38px;
+    margin-top: 34px;
 }
 
 .navegacao a{
