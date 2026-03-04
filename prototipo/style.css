@@ -69,6 +69,21 @@ button {
     font-weight: bolder;
 }
 
+.sair {
+  position: absolute;
+  right: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  background: linear-gradient(to right, rgb(117, 117, 231), #0000fe);
+  padding: 5px;
+  padding-right: 20px;
+  border-radius: 5px 0px 0px 15px;
+  padding: 10px;
+  width: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
 
 
 /*cartoes*/
@@ -166,6 +181,11 @@ button:hover {
     color: rgb(255, 255, 255);
 }
 
+.sair:hover {
+    width: 70px;
+    transition: 0.3s;
+    
+}
 /*footer*/
 footer {
     border-radius: 9px 9px 0px 0px;
