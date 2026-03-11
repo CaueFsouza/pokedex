@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    background-color: rgb(203, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/IMG/fundo_login.png), linear-gradient(to bottom, gray, rgb(191, 191, 191))
+}
+
+
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 350px;
+    gap: 20px;
+    font-family: arial;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px gray;
+    background-color: white;
+
+}
+
+.caixa h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: red;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+input {
+    height: 39px;
+    width: 250px;
+    border-radius: 9px;
+    font-size: 16px;
+}
