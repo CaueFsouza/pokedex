@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pokedex</title>
     <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 <main>
@@ -14,14 +15,19 @@
       </div>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon_logo">
         <label for="usuario">Usuario:</label>
-        <input type="text" placeholder="Usuario">
+        <input type="text" id="usuariologin" placeholder="Usuario">
         <label for="usuario">Senha:</label>
-        <input type="text" placeholder="Senha">
-        <a href="/prototipo/index.html">COMEÇAR!</a>
+        <input type="password" id="senhalogin" placeholder="Senha">
+
+        <div class="botao">
+        <button onclick="login()" class="comecar">COMEÇAR!</button><a href="cadastro.html" class="cadastro">CADASTRAR</a>
+        </div>
+        
   </div>
 </main>
    <footer>
     <h1>Site não está completo, tudo é apenas visual!</h1>
    </footer>
     
+   <script src="cadastro.js"></script>
 </body>

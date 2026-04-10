@@ -3,7 +3,7 @@ body {
     margin: 0px;
     background-color: rgb(203, 203, 203);
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background: url(/IMG/fundo_login.png), linear-gradient(to bottom, gray, rgb(191, 191, 191))
 }
@@ -20,8 +20,10 @@ body {
     font-family: arial;
     border-radius: 10px;
     border: 2px solid black;
+    border-top: none;
     box-shadow: 6px 6px 4px gray;
-    background-color: white;
+    background: linear-gradient(to top, rgb(14, 0, 77), rgb(17, 0, 255), rgba(133, 133, 252, 0.514));
+    margin: 0px 120px 0px ;
 
 }
 
@@ -36,20 +38,26 @@ body {
 
 
 a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    background-color: red;
-    padding: 20px;
-    border-radius: 15px;
-    color: white;
-    font-weight: bolder;
-    padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to top, rgb(117, 1, 1), red);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5px;
+  border: solid 2px black;
+  width: 70px;
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+
 }
 
 label {
     font-weight: bolder;
     font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 input {
@@ -57,4 +65,44 @@ input {
     width: 250px;
     border-radius: 9px;
     font-size: 16px;
+    font-weight: bold;
+}
+
+img {
+    width: 1000px;
+    height: 600px;
+}
+
+button {
+    background: linear-gradient(to top, rgb(1, 187, 1), rgb(64, 243, 64));
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 200px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.linha {
+    margin: 0px;
+    width: 200px;
+    height: 40px;
+    border-bottom: 2px solid white;
+}
+
+/*hovers*/
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
 }
