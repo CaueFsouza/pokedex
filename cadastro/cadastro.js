@@ -24,11 +24,24 @@ function login (){
     let usuariosalvo = localStorage.getItem("usuario");
     let senhasalva = localStorage.getItem("senha");
 
+
     if(usuario === usuariosalvo && senha === senhasalva){    
-        alert("Login efetuado com Sucesso!")
-        window.location.href = "../prototipo/pokemons.html"
-    } else {
+        alert("Login efetuado com Sucesso!");
+        window.location.href = "../prototipo/pokemons.html";
+    } 
+    else if(usuario === "" && senha === ""){
+        document.getElementById("errologin").innerText = "Preencha os campos!";
+    }
+    else if(usuario === ""){
+        document.getElementById("errologin").innerText = "Adicione um usuario!";
+    }
+    else if(senha === ""){
+        document.getElementById("errologin").innerText = "Adicione uma senha!";
+    }
+    else {
         alert("Login invalido!")
     }
     
 }
+
+

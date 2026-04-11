@@ -3,9 +3,11 @@ body {
     margin: 0px;
     background-color: rgb(203, 203, 203);
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    background: url(/IMG/fundo_login.png), linear-gradient(to bottom, gray, rgb(191, 191, 191))
+    background: url(/IMG/cadastro.gif), linear-gradient(to bottom, gray, rgb(191, 191, 191));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -19,10 +21,9 @@ body {
     gap: 20px;
     font-family: arial;
     border-radius: 10px;
-    border: 2px solid black;
     border-top: none;
-    box-shadow: 6px 6px 4px gray;
-    background: linear-gradient(to top, rgb(14, 0, 77), rgb(17, 0, 255), rgba(133, 133, 252, 0.514));
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.452);
+    background: linear-gradient(to top, rgba(14, 0, 77, 0.274), rgb(17, 0, 255, 0.274), rgba(133, 133, 252, 0.514));
     margin: 0px 120px 0px ;
 
 }
@@ -66,11 +67,6 @@ input {
     border-radius: 9px;
     font-size: 16px;
     font-weight: bold;
-}
-
-img {
-    width: 1000px;
-    height: 600px;
 }
 
 button {
