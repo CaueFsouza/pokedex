@@ -15,6 +15,8 @@ function cadastro (){
     window.location.href = "login.html"
 }
 
+
+
 function login (){
     let usuario = document.getElementById("usuariologin").value;
     let senha = document.getElementById("senhalogin").value;
