@@ -4,14 +4,20 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background: url(/IMG/login.gif), linear-gradient(to left, red, blue);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .login {
@@ -27,6 +33,7 @@ body {
     gap: 19px;
     text-align: center;
     padding-bottom: 50px;
+    margin: auto;
      
 }
 
@@ -116,13 +123,15 @@ label {
     margin-top: -150px;
 }
 
-footer h1{
-   font-size: 15px;
-   color: white;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+footer{
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
 }
-
 .erro {
     position: absolute;
     bottom: -18px;
