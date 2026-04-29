@@ -4,35 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pokedex</title>
-    <link rel="stylesheet" href="evolucao.css">
+    <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
 
  <!--topo do site-->
 
  <header>
-    <div class="topo"> 
-             <a href="/cadastro/login.html" class="sair">Sair</a>
+    <div class="topo">
+        <a href="/cadastro/login.html" class="sair">Sair</a>
+        <a href="/IMG/Buenos dias.jpg">
              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png" alt="pokemon-logo-png-0">
+        </a> 
         <div class="pesquisa">
-             <input type="text" placeholder="Digite um Pokemon!">
+             <input type="text" id="buscar" placeholder="Digite um Pokemon!">
              <button>Procurar!🔎</button>
         </div>
         <div class="navegacao">
          <nav>
           <a href="/shiny/shiny.html" class="shiny">SHINYS</a>
-          <a href="/prototipo/pokemons.html" class="evolucao">VOLTAR</a>
+          <a href="/evolucoes/evolucao.html" class="evolucao">EVOLUÇÔES</a>
          </nav>
         </div>
     </div>
  </header>
-   <div class="conteiner_formas">
-    <div class="formas">
-     <a href="/evolucoes/evolucao.html">1 forma</a>
-     <a href="/evolucoes/evolucao_segundo.html">2 forma</a>
-     <a href="/evolucoes/evolucao_terceiro.html">3 forma</a>
-    </div>
-   </div>
+   
  <!--cartas Pokemon-->
  <div class="pokemon_card">
 
@@ -146,5 +142,6 @@
  <footer>
    <p>Direitos reservados - Caue Ferreira</p>
  </footer>
+ <script src="pesquisa.js"></script>
 </body>
 </html>
